@@ -18,6 +18,7 @@ export default function renderRecipes(recipe, appId) {
 
   const likesValue = document.createElement('div');
   likesValue.classList.add('likes-value');
+  likesValue.textContent = `${recipe.likes} likes`;
 
   const commentBtn = document.createElement('button');
   commentBtn.innerHTML = 'Comments';

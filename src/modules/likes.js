@@ -1,6 +1,6 @@
 import { saveLikes, handleSaveLikes } from './handleLikes.js';
 
-const likesListener = function (recipe, appId) {
+const likesListener = (recipe, appId) => {
   const likesBtns = document.querySelectorAll('.likesBtn');
   const countLikes = document.querySelectorAll('.likes-value');
   const countLike = countLikes[countLikes.length - 1];
@@ -17,10 +17,14 @@ const likesListener = function (recipe, appId) {
 
   const handleLikeClick = async () => {
     const itemId = recipe.idMeal;
-    count += 1;
+    const likesCount = parseInt(localStorage.getItem(itemId), 10) || 0;
+    count = likesCount + 1;
+
+    // Save updated likes count to localStorage
+    localStorage.setItem(itemId, count);
 
     await saveLikesToBackend(appId, itemId, count);
-    await handleSaveLikes(appId, itemId);
+    await handleSaveLikes(appId);
 
     updateLikesUI(count);
   };

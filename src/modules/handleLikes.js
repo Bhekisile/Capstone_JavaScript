@@ -21,9 +21,7 @@ export const saveLikes = async (appId, itemId, likes) => {
 
 export const handleSaveLikes = async (appId) => {
   try {
-    const response = await fetch(
-      `${apiUrl}apps/${appId}/likes/`,
-    );
+    const response = await fetch(`${apiUrl}apps/${appId}/likes/`);
     if (!response.ok) {
       throw new Error('Failed to fetch game scores');
     }
@@ -33,5 +31,3 @@ export const handleSaveLikes = async (appId) => {
     return null;
   }
 };
-
-handleSaveLikes();
