@@ -34,71 +34,71 @@ a {
 }
 
 footer {
-    height: 90px;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    font-size: 20px;
-    color: darkslategray;
-    border: 1px solid black;
-    font-weight: 500;
-    padding-left: 10px;
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-  }
+  height: 90px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+  color: darkslategray;
+  border: 1px solid black;
+  font-weight: 500;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
 
-  .card {
-    width: 80%;
-    padding: 10px;
-    margin: 40px auto;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.card {
+  width: 80%;
+  padding: 10px;
+  margin: 40px auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
 ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .meal-list {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 ul li {
-    list-style: none;
-    width: 35%;
+  list-style: none;
+  width: 35%;
 }
-  
-  .meal-img {
-      width: 100%;
-  }
 
-  .meal-h3 {
-    display: flex;
-    justify-content: space-between;
-   }
+.meal-img {
+  width: 100%;
+}
 
-  .likes-value {
-    display: flex;
-    justify-content: flex-end;
+.meal-h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.likes-value {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .likesBtn {
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 .comment-btn {
-    width: 60%;
-    height: 30px;
-    font-size: 25px;
-    background-color: transparent;
-    margin: 10px auto;
-    display: flex;
-    justify-content: center;
-  }
+  width: 60%;
+  height: 30px;
+  font-size: 25px;
+  background-color: transparent;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
 
-  .fa {
-    font-size: 24px;
-  }
+.fa {
+  font-size: 24px;
+}

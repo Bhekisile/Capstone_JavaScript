@@ -3,8 +3,6 @@ import likesListener from './likes.js';
 const mealList = document.getElementById('meal-list');
 
 export default function renderRecipes(recipe, appId) {
-  console.log('render', appId);
-
   const li = document.createElement('li');
   li.classList.add('card');
 

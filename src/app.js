@@ -26,8 +26,6 @@ const initializeApp = async (callback) => {
     .then((response) => response.json())
     .then((data) => {
       const { meals } = data;
-      console.log(meals);
-      console.log('id', appId);
 
       meals.forEach((meal) => {
         countMeals(meals);
