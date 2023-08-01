@@ -2,7 +2,6 @@ import './index.css';
 import renderRecipes from './modules/displayMeals.js';
 import countMeals from './modules/countMeals.js';
 
-// let appId;
 const apiUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/';
 
 const initializeApp = async (callback) => {
