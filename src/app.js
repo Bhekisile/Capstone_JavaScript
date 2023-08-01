@@ -13,11 +13,9 @@ const initializeApp = async (callback) => {
   }
   const data = await response.text();
   const appId = data.trim();
-  //   console.log(appId);
   if (callback) {
     callback(appId);
   }
-  //   };
 
   fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=s')
     .then((response) => response.json())
