@@ -5,8 +5,6 @@ import countMeals from './modules/countMeals.js';
 // let appId;
 const apiUrl = 'https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/';
 
-// const mealCounter = document.getElementById('mealCounter');
-
 const initializeApp = async (callback) => {
   const response = await fetch(`${apiUrl}apps/`, {
     method: 'POST',
