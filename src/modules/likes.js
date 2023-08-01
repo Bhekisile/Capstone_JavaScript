@@ -20,7 +20,6 @@ const likesListener = (recipe, appId) => {
     const likesCount = parseInt(localStorage.getItem(itemId), 10) || 0;
     count = likesCount + 1;
 
-    // Save updated likes count to localStorage
     localStorage.setItem(itemId, count);
 
     await saveLikesToBackend(appId, itemId, count);
