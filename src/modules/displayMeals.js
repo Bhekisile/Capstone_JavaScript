@@ -32,7 +32,6 @@ export default function renderRecipes(recipe, appId) {
 
   likesListener(recipe, appId);
 
-  // -----------------STUDENT B add event listener to comment button------------
   commentBtn.addEventListener('click', () => {
     displayPopup(recipe);
   });
