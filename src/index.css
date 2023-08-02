@@ -102,3 +102,46 @@ ul li {
 .fa {
   font-size: 24px;
 }
+
+.close {
+  margin: 0;
+  position: absolute;
+  font-size: 4rem;
+  font-weight: 500;
+  top: 1%;
+  left: 80%;
+  cursor: pointer;
+}
+
+.popup {
+  display: none;
+  width: 90%;
+  position: fixed;
+  z-index: 99999;
+  background-color: white;
+  border: 2px black solid;
+  padding: 1%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  margin-top: 1.3%;
+  text-align: center;
+  max-height: calc(100vh - 9%);
+  overflow-y: scroll;
+}
+
+.popup img.popup-img {
+  max-width: 30%;
+  margin-bottom: 1%;
+}
+
+.food-name {
+  margin-bottom: 2%;
+}
+
+.food-info {
+  display: flex;
+  justify-content: space-between;
+}
