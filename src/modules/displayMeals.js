@@ -1,4 +1,5 @@
 import likesListener from './likes.js';
+import displayPopup from './popup.js';
 
 const mealList = document.getElementById('meal-list');
 
@@ -30,4 +31,9 @@ export default function renderRecipes(recipe, appId) {
   mealList.append(li);
 
   likesListener(recipe, appId);
+
+  // -----------------STUDENT B add event listener to comment button------------
+  commentBtn.addEventListener('click', () => {
+    displayPopup(recipe);
+  });
 }
