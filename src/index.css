@@ -74,7 +74,7 @@ ul li {
   width: 100%;
 }
 
-.meal-h3 {
+.meal-h4 {
   display: flex;
   justify-content: space-between;
 }
@@ -92,15 +92,34 @@ ul li {
 .comment-btn {
   width: 60%;
   height: 30px;
-  font-size: 25px;
+  font-size: 20px;
   background-color: transparent;
   margin: 10px auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #0a0a23;
+  opacity: 70%;
+  color: #fff;
+  border: none;
+}
+
+.comment-btn:hover {
+  background-color: #0a0a23;
+  opacity: 100%;
 }
 
 .fa {
   font-size: 24px;
+  color: maroon;
+  /* opacity: 70%; */
+}
+
+.fa:hover {
+  color: red;
+  /* opacity: 100%; */
 }
 
 .close {
