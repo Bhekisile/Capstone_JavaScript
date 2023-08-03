@@ -93,7 +93,6 @@ ul li {
   width: 60%;
   height: 30px;
   font-size: 20px;
-  background-color: transparent;
   margin: 10px auto;
   display: flex;
   justify-content: center;
@@ -114,12 +113,10 @@ ul li {
 .fa {
   font-size: 24px;
   color: maroon;
-  /* opacity: 70%; */
 }
 
 .fa:hover {
   color: red;
-  /* opacity: 100%; */
 }
 
 .close {
