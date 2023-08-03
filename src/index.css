@@ -39,13 +39,15 @@ footer {
   bottom: 0;
   left: 0;
   font-size: 20px;
-  color: darkslategray;
+  color: #fff;
   border: 1px solid black;
   font-weight: 500;
   padding-left: 10px;
   display: flex;
   align-items: center;
   margin-top: 30px;
+  background-color: #0a0a23;
+  opacity: 70%;
 }
 
 .card {
@@ -57,7 +59,7 @@ footer {
 
 ul {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .meal-list {
@@ -74,7 +76,7 @@ ul li {
   width: 100%;
 }
 
-.meal-h3 {
+.meal-h4 {
   display: flex;
   justify-content: space-between;
 }
@@ -92,15 +94,31 @@ ul li {
 .comment-btn {
   width: 60%;
   height: 30px;
-  font-size: 25px;
-  background-color: transparent;
+  font-size: 20px;
   margin: 10px auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #0a0a23;
+  opacity: 70%;
+  color: #fff;
+  border: none;
+}
+
+.comment-btn:hover {
+  background-color: #0a0a23;
+  opacity: 100%;
 }
 
 .fa {
   font-size: 24px;
+  color: maroon;
+}
+
+.fa:hover {
+  color: red;
 }
 
 .close {

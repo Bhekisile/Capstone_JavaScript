@@ -12,10 +12,10 @@ export default function renderRecipes(recipe, appId) {
   img.src = recipe.strMealThumb;
   img.alt = 'Image of food';
 
-  const h3 = document.createElement('h3');
-  h3.innerHTML = `<h3>${recipe.strMeal}</h3>
+  const h4 = document.createElement('h4');
+  h4.innerHTML = `<h4>${recipe.strMeal}</h4>
                 <span><button class='likesBtn'><i class="fa fa-heart-o"></i></button></span>`;
-  h3.classList.add('meal-h3');
+  h4.classList.add('meal-h4');
 
   const likesValue = document.createElement('div');
   likesValue.classList.add('likes-value');
@@ -27,12 +27,11 @@ export default function renderRecipes(recipe, appId) {
   commentBtn.id = 'modalComments';
   commentBtn.classList.add('comment-btn');
 
-  li.append(img, h3, likesValue, commentBtn);
+  li.append(img, h4, likesValue, commentBtn);
   mealList.append(li);
 
   likesListener(recipe, appId);
 
-  // -----------------STUDENT B add event listener to comment button------------
   commentBtn.addEventListener('click', () => {
     displayPopup(recipe);
   });
