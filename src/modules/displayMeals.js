@@ -46,7 +46,7 @@ export default function renderRecipes(recipe, appId) {
 
     if (updatedComments.length > 0) {
       updatedComments.forEach((comment) => {
-        commentList.innerHTML += `<li> ${comment.creation_date} - ${comment.username} - ${comment.comment}</li>`;
+        commentList.innerHTML += `<li> ${comment.creation_date}  ${comment.username}: ${comment.comment}</li>`;
       });
     } else {
       commentList.innerHTML = '<li>No comments yet.</li>';
