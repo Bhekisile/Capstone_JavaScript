@@ -158,6 +158,8 @@ ul li {
 .food-name {
   margin-bottom: 2%;
   font-size: 1.8rem;
+  max-width: 60%;
+  text-align: center;
 }
 
 .food-info {
