@@ -1,4 +1,5 @@
-import getCommentCount from "../src/modules/commentCounter.js";
+import getCommentCount from '../src/modules/commentCounter.js';
+
 test('getCommentCount returns the correct comment count', async () => {
   const mockResponse = {
     json: jest.fn().mockResolvedValue([
