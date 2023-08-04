@@ -1,5 +1,6 @@
 import likesListener from './likes.js';
 import displayPopup from './popup.js';
+import { handleSaveComment } from './saveComment.js';
 
 const mealList = document.getElementById('meal-list');
 
@@ -32,7 +33,25 @@ export default function renderRecipes(recipe, appId) {
 
   likesListener(recipe, appId);
 
-  commentBtn.addEventListener('click', () => {
-    displayPopup(recipe);
+  commentBtn.addEventListener('click', async () => {
+    const idApp = 'PcK1Dh40SP7TXwIQhwoT';
+    const popup = document.querySelector('.popup');
+    displayPopup(recipe, idApp);
+    const { comments: updatedComments, commentCount } = await handleSaveComment(
+      recipe.idMeal, idApp,
+    );
+
+    const commentList = popup.querySelector('.comment-list');
+    commentList.innerHTML = '';
+
+    if (updatedComments.length > 0) {
+      updatedComments.forEach((comment) => {
+        commentList.innerHTML += `<li> ${comment.creation_date} - ${comment.username} - ${comment.comment}</li>`;
+      });
+    } else {
+      commentList.innerHTML = '<li>No comments yet.</li>';
+    }
+    const commentCountElement = popup.querySelector('.comment-count');
+    commentCountElement.textContent = `Comments(${commentCount})`;
   });
 }
