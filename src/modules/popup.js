@@ -57,7 +57,7 @@ const displayPopup = (meal, appId) => {
     }
 
     const commentCountElement = popup.querySelector('.comment-count');
-    commentCountElement.textContent = `Comment(${commentCount})`;
+    commentCountElement.textContent = `Comments(${commentCount})`;
   });
 };
 
