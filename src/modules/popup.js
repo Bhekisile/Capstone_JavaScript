@@ -17,7 +17,7 @@ const displayPopup = (meal, appId) => {
     <p class="comment-count"></p>
     <ul class="comment-list"></ul>
     <h3 class="add-comm">Add a comment</h3>
-    <form class="form-display">
+    <form>
     <input type="text" id="name" placeholder="Your name"></input>
     <textarea id="comment" placeholder="Your insights"></textarea>
     <button type="submit" class="form-btn">Comment</button>
@@ -57,7 +57,7 @@ const displayPopup = (meal, appId) => {
     }
 
     const commentCountElement = popup.querySelector('.comment-count');
-    commentCountElement.textContent = `Comments(${commentCount})`;
+    commentCountElement.textContent = `Comment(${commentCount})`;
   });
 };
 
