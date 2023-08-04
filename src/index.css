@@ -151,12 +151,13 @@ ul li {
 }
 
 .popup img.popup-img {
-  max-width: 30%;
+  max-width: 50%;
   margin-bottom: 1%;
 }
 
 .food-name {
   margin-bottom: 2%;
+  font-size: 1.8rem;
 }
 
 .food-info {
