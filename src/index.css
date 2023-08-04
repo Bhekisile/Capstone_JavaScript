@@ -151,7 +151,7 @@ ul li {
 }
 
 .popup img.popup-img {
-  max-width: 50%;
+  max-width: 60%;
   margin-bottom: 1%;
 }
 
@@ -210,7 +210,6 @@ ul li {
 
 .add-comm {
   text-align: center;
-  display: none;
 }
 
 .popup .comments,
@@ -235,8 +234,4 @@ ul li {
 .comment-count {
   margin-top: 4%;
   font-weight: 900;
-}
-
-.form-display {
-  display: none;
 }
