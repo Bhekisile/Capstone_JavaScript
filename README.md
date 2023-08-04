@@ -13,20 +13,18 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [MeaLsDB Restaurant] <a name="about-project"></a>
 
-**[MeaLsDB Restaurant]** is a project displaying the list of meals. It displays according to the alphabetical letter selected from the API.
+**[MeaLsDB Restaurant]** is a project that displays the list of meals. It displays according to the alphabetical letter selected from the API.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,7 +54,7 @@
 <details>
   <summary>Webpack</summary>
   <ul>
-    <li><a href="https://webpack.js.org/guides/getting-started/#basic-setup">Javascript</a></li>
+    <li><a href="https://webpack.js.org/guides/getting-started/#basic-setup">Webpack</a></li>
   </ul>
 </details>
 
@@ -64,11 +62,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Likes buttons that update both UI and API]**
 - **[Comments buttons]**
-- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,36 +118,22 @@ To run tests, run the following command:
 
 npm test
 
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+👤 **Bhekisile Jozi**
 
 - GitHub: [@githubhandle](https://github.com/Bhekisile)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhekisile-j-b9823369/)
 
-👤 **Author2**
+👤 **Margaret**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/MargaretTechworld)
+- Twitter: [@twitterhandle](https://twitter.com/KojoMargaret)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-13a408147/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,8 +142,6 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add recipes for each meal]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,6 +175,6 @@ I would like to thank Microverse for this great opportunity!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
