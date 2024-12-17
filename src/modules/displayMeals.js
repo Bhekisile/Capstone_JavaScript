@@ -15,7 +15,9 @@ export default function renderRecipes(recipe, appId) {
 
   const h4 = document.createElement('h4');
   h4.innerHTML = `<h4>${recipe.strMeal}</h4>
-                <span><button class='likesBtn'><i class="fa fa-heart-o"></i></button></span>`;
+                <span><button class='likesBtn'>
+                  <i class="fa fa-heart-o"></i>           
+                </button></span>`;
   h4.classList.add('meal-h4');
 
   const likesValue = document.createElement('div');
