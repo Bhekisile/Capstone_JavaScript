@@ -24,7 +24,8 @@
 
 # 📖 [MeaLsDB Restaurant] <a name="about-project"></a>
 
-**[MeaLsDB Restaurant]** is a project that displays the list of meals. It displays according to the alphabetical letter selected from the API.
+**[MeaLsDB Restaurant]** is a JavaScript Capstone project that showcases the knowledge of webpack, API integration, and Jest. The data is fetched from the API and displayed on the user interface. The various meal types is displayed based on the alphabetical letter we selected from the API. We employ a Jest test to ensure that every functionality operates as expected. We use the grid layout, which aids in making the application responsive.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -127,7 +128,8 @@ npm test
 👤 **Bhekisile Jozi**
 
 - GitHub: [@githubhandle](https://github.com/Bhekisile)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhekisile-j-b9823369/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhekisile-jozi/)
+- Twitter: [Twitter](https://x.com/Bhekisile750473)
 
 👤 **Margaret**
 
@@ -167,7 +169,7 @@ If you like this project give it a star!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for this great opportunity!
+We would like to thank Microverse for this great opportunity!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
