@@ -42,8 +42,8 @@ footer {
   color: #fff;
   border: 1px solid black;
   font-weight: 500;
-  padding-left: 10px;
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-top: 30px;
   background-color: #0a0a23;
@@ -59,7 +59,7 @@ footer {
 
 ul {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .meal-list {
